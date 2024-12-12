@@ -1,45 +1,6 @@
 ==========================================================
-iati-docs-base: Template repo for IATI documentation sites
+IATI Datastore Docs
 ==========================================================
-
-Includes:
-
-* IATI documentation Sphinx theme
-* Scaffolding for translation
-* Instructions on how to create a new IATI documentation site
-* The "kitchen sink" comprehensive demonstration of Sphinx features rendered using the theme
-
-For more information on using the `IATI documentation site Sphinx theme <https://github.com/IATI/sphinx-theme>`_ , see `the theme documentation <https://iati-sphinx-theme.readthedocs-hosted.com/en/latest/>`_
-
-Creating a new IATI Documentation website
-=========================================
-
-Create the repo
----------------
-
-In order to create a new repo using this as a template, you need permission to create new repos in the IATI GitHub organisation. If you don't have this, talk to `an organisation owner <https://github.com/orgs/IATI/people>`_.
-
-If you have this permission, then click the "Use this template" button on the repo to create a new repo, using this as a template. 
-
-Set up ReadTheDocs
-------------------
-
-Then, set up the repo on ReadTheDocs by `logging in to app.readthedocs.com <https://app.readthedocs.com/dashboard/>`_ using GitHub. Permissions on ReadTheDocs are set via GitHub so you have to log in using GitHub, otherwise you won't be able to access anything. Also note that the link above is to the pre-release (as of October 2024) version of ReadTheDocs and cannot be reached via a link from the RTD homepage. The following instructions only work on the pre-release RTD interface. 
-
-Once logged in, click Add Project and follow through the flow to add the project. If you get a banner saying "Failed to add deploy key to project Failed to add deploy key to GitHub project, ensure you have the correct permissions and try importing again.", you can ignore it(!) 
-
-Repeat the Add Project flow again for each language that you're adding translations for, using the same repo and following the convention of appending -fr/-es etc at the end of each project name, and setting the Language of the project to the appropriate value. 
-
-Finally, go to the Settings of the English version of the docs, click "translations" in the menu, and add the extra projects you just created as Translations of the first. 
-
-Write your content
-------------------
-
-You're now ready to write your content - see other documentation sites for examples of layouts and structure, and look at the "kitchen sink" for examples of Sphinx features. All content must be written in `ReStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ .
-
-See the "Contributing" section, below, for best practices on how to work on your content.
-
-Don't forget to remove the Kitchen Sink and these setup instructions before starting work on your own documentation. The content in the other sections below can stay as it's relevant to anyone wanting to work on the documentation in the future. 
 
 Building the Documentation
 ==========================
@@ -86,7 +47,7 @@ Assuming a unix based system:
 Built docs are in `docs/_build/dirhtml`.
 
 
-To then view the built docs::
+To then view the built docs:
 
 .. code-block:: bash
 
@@ -126,9 +87,9 @@ Extract Strings
 
 .. code-block:: bash
 
-   cd docs
-   make gettext
-   # .pot files are in _build/locale
+  cd docs
+  make gettext
+  # .pot files are in _build/locale
 
 
 Send for translation & Receive translations
@@ -150,8 +111,8 @@ If building locally:
 
 .. code-block:: bash
 
-   cd docs
-   make -e SPHINXOPTS="-D language='fr'" dirhtml
+  cd docs
+  make -e SPHINXOPTS="-D language='fr'" dirhtml
 
 Built docs are in `docs/_build/dirhtml`.
 
