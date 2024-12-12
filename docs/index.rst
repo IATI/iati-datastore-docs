@@ -1,5 +1,5 @@
 **************
-IATI Datastore Search
+IATI Datastore
 **************
 
 The International Aid Transparency Initiative (IATI) is a global effort to make data about development and humanitarian aid more transparent. IATI data helps people make informed decisions that deliver better results. 

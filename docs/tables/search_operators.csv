@@ -1,0 +1,24 @@
+Search operator,Function,Example
+.. centered:: **?**,"Wildcard, representing one character.",**latin?** returns results including latino and latina.
+.. centered:: **\***,"Wildcard, representing any number of characters.","**latin\*** returns results including latin, latino, latina, latinize, etc."
+.. centered:: **“ ”**,An exact match search.,"**“inter-agency”** searches for inter-agency exactly.
+
+Without quotes, inter-agency would return matches to inter and agency."
+.. centered:: **AND**,"Boolean, requires both terms to be present.
+
+&& can be used in place of AND.","**Congo AND Democratic** returns results that contain both the terms Congo, and Democratic."
+.. centered:: **NOT**,"Boolean, requires that the following term is not present.
+
+! or - can be used in place of NOT.",**Congo NOT Democratic** returns results that contain Congo but do not contain Democratic.
+.. centered:: **OR**,"Boolean, requires that at least one of the terms is present.
+
+|| can be used in place of OR.","**Covid OR vaccine** returns results containing Covid, vaccine, or both."
+.. centered:: **+**,"Boolean, requires that a term must be present.","**foreign domestic +aid** returns results that contain foreign or domestic, and must include aid."
+.. centered:: **~**,"Fuzzy search, finds similar results. Can be modified with a number (0,1, or 2) to limit the number of edits.
+
+**OR**","**roam~1** returns road, roma, etc."
+.. centered:: **~**,"Proximity search, requires that provided terms are found separated by a maximum count of words.
+
+**Note:** quote marks must be used for the search phrase.","**“protection rights” ~20** returns results that contain protection and rights, within 20 words of each other."
+.. centered:: **^**,"Term boosting operator, boosts the relevancy of the term.",**covid^4 vaccine health doctor** returns results that match any of the four terms. Results containing covid will be higher ranked.
+.. centered:: **()**,"Grouping, for use with other search operators",**(Congo AND Democratic) OR ( Covid AND vaccine)** combines two AND searches.
