@@ -16,18 +16,24 @@ Building queries
 
 Click on the "Build Query" button in the advanced search menu to begin building your search query.
 
-You can then click "Add Rule", and use the dropdown to select a field to search against. "Standard fields" map directly to elements of the IATI standard. Once selected, 
+.. figure:: images/adv_search.svg
+    :width: 100 %
+    :align: center
+    :alt: Screenshot of the advanced search menu. 
 
+    The advanced search menu.
 
-You can also import and export queries
+Next, click "Add Rule", and use the dropdown to select a field to search against. "Standard fields" map directly to elements of the IATI standard. You can then enter the value you want to search for.
 
+For some elements, such as transaction dates, you can look for dates less than, equal to, or greater than the entered date using the **<**, **=**, and **>** options. 
+For other elements, such as recipient country codes, you can look for recipient country codes equal to or not equal to the selected code, using the **==** and **!=** options. 
 
+For more complex queries, you can add more rules or groups of rules. See the :ref:`Example Queries` page for examples.
+
+When your query is ready, click "Run" to excute it. You can also import and export queries to rerun at a later date.
 
 Special fields
 -------------------
-
-
-
 
 In addition to standard fields, advanced search includes special fields. These are:
 
@@ -58,15 +64,17 @@ Element Wise Searching
 ^^^^^^^^^^^^^^^^^^^^^^
 
 It is not possible to query multi-valued fields in an element-wise fashion.
-For example, consider the following search query: 
 
-.. image:: images/element_wise.png
-    :width: 600
-    :alt: Test
+For example, consider the query: **Recipient Country Code == AF - Afghanistan AND Recipient Country Percentage == 30**. 
 
-This query is **Recipient Country Code == AF - Afghanistan AND Recipient Country Percentage == 30**. 
-
-This query returns all activities with a recipient country code of AF, and a recipient country with a percentage of 30%. 
+This returns all activities with a recipient country code of AF, and a recipient country with a percentage of 30%. 
 However, this may not necessarily apply to the same recipient-country element. 
 
 In some cases you may be able to work around this limitation by downloading results at the transaction or budget-level. This is because a single transaction can only have a single recipient-country, for example. 
+
+.. toctree::
+    :hidden:
+    :titlesonly:
+    :maxdepth: 3
+
+    adv_example

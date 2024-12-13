@@ -20,3 +20,8 @@ To search for a particular phrase, use quotation marks. For example, "rabbit pro
 
 Data cleaning?
 The IATI Datastore indexes and represents IATI data precisely as it is was originally published, with no transformations or layers of inferred meaning or metadata.
+
+
+4c. Validation
+
+Only valid IATI activities are imported into the IATI Datastore. If an activity is marked as a critical error in the IATI Validator, it will not appear in Datastore Search.
