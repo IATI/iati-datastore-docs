@@ -2,10 +2,10 @@
 Frequently Asked Questions
 **************
 
-1. :ref:`Why is my data missing from Datastore Search? <faq_1>`
-2. :ref:`How do I search for a specific phrase/identifer? <faq_2>`
+1. :ref:`Why is my data missing from the Datastore? <faq_1>`
+2. :ref:`When is the IATI Datastore updated? <faq_2>`
 3. :ref:`How do I search for a specific phrase/identifer? <faq_3>`
-4. :ref:`How does IATI Datastore clean the date? <faq_4>`
+4. :ref:`How does IATI Datastore clean IATI data? <faq_4>`
 
 | 
 
@@ -14,7 +14,7 @@ Frequently Asked Questions
 | 
 
 .. _faq_1: 
-1. Why is my data missing from Datastore Search?
+1. Why is my data missing from the Datastore?
     The IATI Datastore contains all IATI data known to the IATI Registry which is version 2.0 or above, and conforms to the IATI XML Schema. 
     Files that do not conform to the IATI XML schema are marked as critically invalid in the `IATI Validator <https://validator.iatistandard.org/organisations>`_.
 
@@ -30,5 +30,5 @@ Frequently Asked Questions
     For more information on how to use the Datastore Search, please see the User Guide.
 
 .. _faq_4: 
-4. Data cleaning?
+4. How does IATI Datastore clean IATI data?
     The IATI Datastore indexes and represents IATI data precisely as it is was published. There are no transformations or layers of inferred meaning or metadata.
