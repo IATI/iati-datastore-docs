@@ -35,3 +35,4 @@ Datastore Search includes:
 
    simple_search
    adv_search
+   faqs
