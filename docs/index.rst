@@ -34,3 +34,5 @@ Datastore Search includes:
    :caption: User Guide
 
    simple_search
+   adv_search
+   faqs
