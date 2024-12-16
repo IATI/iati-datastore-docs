@@ -25,8 +25,8 @@ Click on the "Build Query" button in the advanced search menu to begin building 
 
 Next, click "Add Rule", and use the dropdown to select a field to search against. "Standard fields" map directly to elements of the IATI standard. You can then enter the value you want to search for.
 
-For some elements, such as transaction dates, you can look for dates less than, equal to, or greater than the entered date using the **<**, **=**, and **>** options. 
-For other elements, such as recipient country codes, you can look for recipient country codes equal to or not equal to the selected code, using the **==** and **!=** options. 
+For some fields (e.g. transaction dates) you can look for dates less than, equal to, or greater than the entered date using the **<**, **=**, and **>** operators. 
+For other fields (e.g. recipient-country codes) use the **==** and **!=** operators to find codes equal to or not equal to the selected code.
 
 For more complex queries, you can add more rules or groups of rules. See the :ref:`Example Queries` page for examples.
 
@@ -58,7 +58,7 @@ For example:
 
     The query **Transaction Transaction Type Code == 1 - Incoming Funds** returns all activities with at least one incoming fund transaction. Other transaction types may be included in the activity.
     
-    However, if you download the results of the query at transaction-level, only incoming fund transactions will be downloaded. See the simple search user guide for more information on download options.
+    However, the transaction-level download can be used to only download incoming fund transactions from these results. See the simple search user guide for more information on download options.
 
 Element Wise Searching
 ^^^^^^^^^^^^^^^^^^^^^^

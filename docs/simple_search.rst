@@ -29,9 +29,9 @@ Downloading Results
 You can download the results of your search in different levels of detail and formats.
 
 Levels:
-    - **Activity-level:** each row in the data represents one activity. This can contain many transactions and budgets.
-    - **Transaction-level:** each row represents one transaction. Activity-level information is repeated for each transaction.
-    - **Budget-level:** each row represents one budget. Activity-level information is repeated for each budget.
+    - **Activity level:** each row in the data represents one activity. This can contain many transactions and budgets.
+    - **Transaction level:** each row represents one transaction. Activity level information is repeated for each transaction.
+    - **Budget level:** each row represents one budget. Activity level information is repeated for each budget.
 
 Formats:
     - **XML:** A valid IATI standard XML file containing all the results from your search. This format can only describe activity-level data.
@@ -45,3 +45,10 @@ Advanced Search
 If you want to expand a simple search to include non narrative elements, click the "Advanced" button on the results page. 
 This will open the advanced search menu, auto-populated with your existing search. 
 See the advanced search section of the User Guide for more information. 
+
+.. toctree::
+    :hidden:
+    :titlesonly:
+    :maxdepth: 3
+
+    simple_example
