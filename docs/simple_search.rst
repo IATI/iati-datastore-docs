@@ -6,11 +6,6 @@ The home page of `Datastore Search <https://datastore.iatistandard.org/>`_ conta
 
 For a summary of all elements in the standard, please see the `Activity Standard Summary Table <https://www.google.com/url?q=https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/&sa=D&source=docs&ust=1733222605142915&usg=AOvVaw1so5C1Bi3cyCOvJ2ziPKKk>`_.
 
-.. tip:: 
-    Quote marks must be used to search for org-ids and iati-identifiers. For example, "XM-DAC-1234". 
-    Without quotes, XM-DAC-1234 would return matches to XM, DAC, and 1234.
-
-
 Search operators
 -------------------
 

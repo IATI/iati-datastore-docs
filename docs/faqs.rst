@@ -26,7 +26,7 @@ Frequently Asked Questions
 .. _faq_3: 
 3. How do I search for a specific phrase/identifer?
     To search for a particular phrase, use quotation marks. 
-    For example, **rabbit production** will return search results about rabbit production. **rabbit production** will return results about rabbits, and results about production. 
+    For example, **"rabbit production"** will return search results about rabbit production. **rabbit production** will return results about rabbits, and results about production. 
     For more information on how to use the Datastore Search, please see the User Guide.
 
 .. _faq_4: 
