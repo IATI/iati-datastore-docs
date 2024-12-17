@@ -16,3 +16,12 @@ Scrolling across to the "recipient_country" and "recipient_region" columns will 
 
 If recipient countries and regions are missing for some activities, this may be because they have been declared for individual transactions. 
 The user can find this information by downloading the results at transaction level. 
+
+Query 2: Diabetes 
+-------------------
+
+A researcher wants to find IATI activities with a focus on diabetes.
+
+They can use the query **diabet\*** to search all narrative IATI elements for relevant activities. This uses the wildcard search operator **\***, meaning it will return results including the words diabetic and diabetes.
+
+The researcher could make this query more specific by using the advanced search. For example, by filtering to activities with the DAC 5 digit sector code 12182, for medical research.

@@ -32,6 +32,10 @@ For more complex queries, you can add more rules or groups of rules. See the :re
 
 When your query is ready, click "Run" to excute it. You can also import and export queries to rerun at a later date.
 
+.. tip:: 
+    Quote marks must be used to search for organisation and iati-identifiers.
+    For example, "XM-DAC-1234". Without quotes, **iati-identifer == XM-DAC-1234** would return matches to XM, DAC, and 1234.
+
 Special fields
 -------------------
 
