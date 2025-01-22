@@ -30,5 +30,5 @@ Frequently Asked Questions
     For more information on how to use the Datastore Search, please see the :ref:`Simple Search` User Guide.
 
 .. _faq_4: 
-1. How does IATI Datastore clean IATI data?
+4. How does IATI Datastore clean IATI data?
     The IATI Datastore indexes and represents IATI data precisely as it is was published. There are no transformations or layers of inferred meaning or metadata.
