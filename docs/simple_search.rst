@@ -39,7 +39,7 @@ Advanced Search
 
 If you want to expand a simple search to include non narrative elements, click the "Advanced" button on the results page. 
 This will open the advanced search menu, auto-populated with your existing search. 
-See the advanced search section of the User Guide for more information. 
+See the :ref:`Adv search page` section of the User Guide for more information. 
 
 .. toctree::
     :hidden:

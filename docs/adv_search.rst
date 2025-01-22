@@ -1,3 +1,5 @@
+.. _Adv search page:
+
 **************
 Advanced Search
 **************

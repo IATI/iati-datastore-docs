@@ -21,14 +21,14 @@ Frequently Asked Questions
 .. _faq_2: 
 2. When is the IATI Datastore updated?
     The Datastore is updated dynamically as new data becomes available via the `IATI Registry <https://iatiregistry.org/publisher/>`_.
-    New files can take upto 24 hours to update. 
+    New files can take up to 24 hours to update. 
 
 .. _faq_3: 
 3. How do I search for a specific phrase/identifer?
     To search for a particular phrase, use quotation marks. 
     For example, **"rabbit production"** will return search results about rabbit production. **rabbit production** will return results about rabbits, and results about production. 
-    For more information on how to use the Datastore Search, please see the User Guide.
+    For more information on how to use the Datastore Search, please see the :ref:`Simple Search` User Guide.
 
 .. _faq_4: 
-4. How does IATI Datastore clean IATI data?
+1. How does IATI Datastore clean IATI data?
     The IATI Datastore indexes and represents IATI data precisely as it is was published. There are no transformations or layers of inferred meaning or metadata.
