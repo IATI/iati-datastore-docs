@@ -1,7 +1,5 @@
-.. _Adv search page:
-
 **************
-Advanced Search
+Advanced Search: User Guide
 **************
 
 To access the advanced search, click on the “Switch to Advanced Search” button on the `Datastore Search <https://datastore.iatistandard.org/>`_ homepage. This tool can be used to search all elements within IATI activity data.
@@ -83,4 +81,3 @@ In some cases you may be able to work around this limitation by downloading resu
     :titlesonly:
     :maxdepth: 3
 
-    adv_example

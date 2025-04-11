@@ -1,5 +1,5 @@
 **************
-Simple Search
+Simple Search: User Guide
 **************
 
 The home page of `Datastore Search <https://datastore.iatistandard.org/>`_ contains the “Simple Search” bar. This performs a text search on every narrative element within IATI activity data. 
@@ -41,9 +41,4 @@ If you want to expand a simple search to include non narrative elements, click t
 This will open the advanced search menu, auto-populated with your existing search. 
 See the :ref:`Adv search page` section of the User Guide for more information. 
 
-.. toctree::
-    :hidden:
-    :titlesonly:
-    :maxdepth: 3
 
-    simple_example

@@ -1,8 +1,18 @@
 **************
-Example Queries
+Simple Search: Example Queries
 **************
 
-Query 1: SMART Surveys
+1. :ref:`How do I investigate which countries have had (SMART) surveys? <q1>`
+2. :ref:`How do I find activites related to diabetes? <q2>`
+
+| 
+
+---------
+
+| 
+
+.. _q1: 
+1: How do I investigate which countries have had (SMART) surveys?
 -------------------
 
 A data user wants to investigate which countries have had Standardised Monitoring and Assessment of Relief and Transitions (SMART) surveys conducted. 
@@ -17,7 +27,8 @@ Scrolling across to the "recipient_country" and "recipient_region" columns will 
 If recipient countries and regions are missing for some activities, this may be because they have been declared for individual transactions. 
 The user can find this information by downloading the results at transaction level. 
 
-Query 2: Diabetes 
+.. _q2: 
+2: How do I find activites related to diabetes?  
 -------------------
 
 A researcher wants to find IATI activities with a focus on diabetes.
