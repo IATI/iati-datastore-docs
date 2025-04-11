@@ -2,8 +2,8 @@
 Advanced Search: Example Queries
 **************
 
-1. :ref:`How do I find activities reported by the FAO? <q1>`
-2. :ref:`How do I find organisations involved in the humanitarian response in Lebanon? <q2>`
+1. :ref:`How do I find activities reported by the FAO? <adv_q1>`
+2. :ref:`How do I find organisations involved in the humanitarian response in Lebanon? <adv_q2>`
 
 | 
 
@@ -11,7 +11,7 @@ Advanced Search: Example Queries
 
 | 
 
-.. _q1: 
+.. _adv_q1: 
 1: How do I find activities reported by the FAO?
 -------------------
 
@@ -38,7 +38,7 @@ For example, **Reporting Org Ref == "XM-DAC-41301", "US-GOV-2"**. You can :downl
 
 | 
 
-.. _q2: 
+.. _adv_q2: 
 2: How do I find organisations involved in the humanitarian response in Lebanon?
 -------------------
 
