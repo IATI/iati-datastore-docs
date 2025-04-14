@@ -72,12 +72,11 @@ There are two places to look for organisations at the activity level:
     Their names are in the "reporting_org_narrative" column. Filtering using a "remove duplicates" option will give a list of all reporting organisations.
 
 2. Participating Organisations
-    `Participating organisations <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/participating-org/>`_ are all organistions invovled in an activity. 
-    Their names are in the "participating_org_narrative" column. As there can be multiple organisations involved in an activity, each cell may contain multiple organisation names, separated by a pipe (|) character.
-    Using a "split text to columns" and specifying | as the separator will split the names into individual cells. These can then be combined into a single column and deduplicated as above.
+    `Participating organisations <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/participating-org/>`_ are all organistions involved in an activity. 
+    Their names are in the "participating_org_narrative" column. This will often contain multiple participating organistion names, separated by a pipe (|) character.
+    Using a "split text to columns" option and specifying | as the separator will split the names into individual cells. These can then be combined into a single column and deduplicated as above.
 
-To note - some duplication may remain as different names can be used for the same organisation. For example "World Health Organisation" and "WHO".
+Note - some duplication may remain as different names can be used for the same organisation. For example "World Health Organisation" and "WHO".
 
-
-
-
+The NGO could also download the Transaction level file to investigate `receiver <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`_ and 
+`provider <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/provider-org/>`_ organistions.
