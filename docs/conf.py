@@ -56,7 +56,7 @@ source_suffix = ['.rst']
 master_doc = 'index'
 
 # General information about the project.
-project = 'IATI Datastore Docs'
+project = 'IATI Datastore: Documentation'
 copyright = '2024 United Nations Development Programme, on behalf of the IATI Secretariat'
 author = 'IATI Secretariat'
 
@@ -142,8 +142,9 @@ html_theme_options = {
     "header_title_text": "IATI Datastore",
     "languages": ["en"],
     "plausible_domain": "datastore.iatistandard.org",
-    "tool_name": "IATI Datastore",
-    "tool_url": "https://datastore.iatistandard.org/"
+    "tool_nav_items": {
+        "IATI Datastore": "https://datastore.iatistandard.org/"
+    },
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
