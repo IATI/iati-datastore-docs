@@ -25,7 +25,7 @@ docutils==0.21.2
     #   sphinx-togglebutton
     #   sphinxcontrib-opendataservices
     #   sphinxcontrib-opendataservices-jsonschema
-iati-sphinx-theme==1.11.0
+iati-sphinx-theme==2.2.0
     # via -r requirements.in
 idna==3.10
     # via requests
