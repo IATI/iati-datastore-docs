@@ -1,6 +1,8 @@
-**************
+.. _adv_search:
+
+*****************************
 Advanced Search: User Guide
-**************
+*****************************
 
 To access the advanced search, click on the “Switch to Advanced Search” button on the `Datastore Search <https://datastore.iatistandard.org/>`_ homepage. This tool can be used to search all elements within IATI activity data.
 

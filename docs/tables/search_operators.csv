@@ -21,4 +21,4 @@ Without quotes, inter-agency would return matches to inter and agency."
 
 **Note:** quote marks must be used for the search phrase.","**“protection rights” ~20** returns results that contain protection and rights, within 20 words of each other."
 .. centered:: **^**,"Term boosting operator, boosts the relevancy of the term.",**covid^4 vaccine health doctor** returns results that match any of the four terms. Results containing covid will be higher ranked.
-.. centered:: **()**,"Grouping, for use with other search operators",**(Congo AND Democratic) OR ( Covid AND vaccine)** combines two AND searches.
+.. centered:: **()**,"Grouping, for use with other search operators",**(Congo AND Democratic) OR (Covid AND vaccine)** combines two AND searches.

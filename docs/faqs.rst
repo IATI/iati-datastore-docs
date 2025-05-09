@@ -1,6 +1,6 @@
-**************
+**************************
 Frequently Asked Questions
-**************
+**************************
 
 1. :ref:`Why is my data missing from the Datastore? <faq_1>`
 2. :ref:`When is the IATI Datastore updated? <faq_2>`

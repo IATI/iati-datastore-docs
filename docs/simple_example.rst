@@ -1,6 +1,6 @@
-**************
+******************************
 Simple Search: Example Queries
-**************
+******************************
 
 1. :ref:`How do I investigate which countries have had SMART surveys? <q1>`
 2. :ref:`How do I find activites related to diabetes? <q2>`
@@ -13,7 +13,7 @@ Simple Search: Example Queries
 
 .. _q1: 
 1: How do I investigate which countries have had SMART surveys?
--------------------
+-----------------------------------------------------------------
 
 A data user wants to investigate which countries have had Standardised Monitoring and Assessment of Relief and Transitions (SMART) surveys conducted. 
 
@@ -35,7 +35,7 @@ The user can find this information by downloading the results at transaction lev
 
 .. _q2: 
 2: How do I find activites related to diabetes?  
--------------------
+-------------------------------------------------
 
 A researcher wants to find IATI activities with a focus on diabetes.
 
