@@ -1,9 +1,9 @@
-**************
+******************
 Example Queries
-**************
+******************
 
 Query 1: Agricultural Research
--------------------
+-------------------------------
 
 A researcher is interested in agricultural funding in IATI data, spefically in activities reported by the Food and Agriculture Organization of the United Nations (FAO). 
 They visit the `IATI Registry <https://iatiregistry.org/publisher/?q=fao&sort=title+asc>`_ and determine that the organisation identifer of FAO is XM-DAC-41301.
@@ -24,7 +24,7 @@ For example, **Reporting Org Ref == "XM-DAC-41301", "US-GOV-2"**. You can :downl
 
 
 Query 2: Humanitarian activities in Brazil
--------------------
+--------------------------------------------
 
 A data user is interested in IATI activities flagged as "Humanitarian" which list Brazil as a recipient country. 
 

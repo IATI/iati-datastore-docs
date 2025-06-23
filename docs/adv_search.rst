@@ -1,8 +1,8 @@
 .. _Adv search page:
 
-**************
+*****************
 Advanced Search
-**************
+*****************
 
 To access the advanced search, click on the “Switch to Advanced Search” button on the `Datastore Search <https://datastore.iatistandard.org/>`_ homepage. This tool can be used to search all elements within IATI activity data.
 
@@ -49,7 +49,7 @@ In addition to standard fields, advanced search includes special fields. These a
 
 
 Multi-valued fields
--------------------
+---------------------
 
 If an element can occur multiple times within an IATI activity, it is stored as a multi-valued field. This is important to consider when using these elements in a query.
 For example:
@@ -67,7 +67,7 @@ For example:
     However, the transaction-level download can be used to only download incoming fund transactions from these results. See the simple search user guide for more information on download options.
 
 Element Wise Searching
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is not possible to query multi-valued fields in an element-wise fashion.
 

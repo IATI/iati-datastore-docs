@@ -37,3 +37,11 @@ Datastore Search includes:
    simple_search
    adv_search
    faqs
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :caption: Download
+   :hidden:
+
+   PDF  <https://docs.datastore.iatistandard.org/_/downloads/en/latest/pdf/>
