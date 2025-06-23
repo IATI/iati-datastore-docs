@@ -19,13 +19,13 @@ Using ReadTheDocs
 ReadTheDocs will automatically build when a new Pull Request is opened on GitHub, whenever a new commit is pushed to an open Pull Request, or when a Pull Request is merged.
 
 
-Build the docs locally
-----------------------
+View the docs locally with live preview
+---------------------------------------
   
 Assuming a unix based system:
 
 .. code-block:: bash
-  
+
   # Make sure you have python3 venv, e.g. for Ubuntu
   # If you're not sure, try creating a venv, and see if it errors
   sudo apt-get install python3-venv
@@ -37,24 +37,14 @@ Assuming a unix based system:
   source .ve/bin/activate
   
   # Install requirements
-  pip install -r requirements.txt
+  pip install -r requirements_dev.txt
   
-  # Build the docs
-  cd docs
-  make dirhtml
-
-
-Built docs are in `docs/_build/dirhtml`.
-
-
-To then view the built docs:
-
-.. code-block:: bash
-
-  cd _build/dirhtml
-  python -m http.server
+  # Run sphinx-autobuild
+  sphinx-autobuild docs docs/_build/html
 
 Then go to http://localhost:8000/ in a browser.
+When you save changes to a file, it should update in the browser automatically.
+To change the language, edit the `language` variable in `docs/conf.py`.
 
 
 Using VS Code
