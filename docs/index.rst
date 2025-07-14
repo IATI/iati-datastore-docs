@@ -36,6 +36,7 @@ Datastore Search includes:
 
    simple_search
    adv_search
+   api
    faqs
 
 .. toctree::
