@@ -81,6 +81,7 @@ Note - some duplication may remain as different names can be used for the same o
 
 The NGO could also download the Transaction level file to investigate `receiver <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`_ and 
 `provider <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/provider-org/>`_ organistions.
+
 | 
 
 ---------
@@ -94,7 +95,7 @@ The NGO could also download the Transaction level file to investigate `receiver 
 
 A researcher wants to find IATI activities with a focus on diabetes in Botswana.
 
-First, they need to find IATI activities which mention diabetes in the title or description, and list Botswana as a recipient country. 
+They need to find IATI activities which mention diabetes in the title or description, and list Botswana as a recipient country. 
 Recipient country codes can be declared at activity or transaction level, so they need to create a grouped query.
 
 * Group A. will search for phrases related to diabetes in all narrative IATI elements, using the query **diabet\***. This uses the wildcard search operator **\***, meaning it will return results including the words diabetic and diabetes.
@@ -111,5 +112,3 @@ You can :download:`download this query <files/adv_example_q3.json>` and test it 
     :alt: Example query for IATI activities which mention diabetes in the title or description, and list Botswana as a recipient country.
 
     Query 3: Activities related to diabetes in Botswana
-
-The researcher can then investigate these activities in several ways

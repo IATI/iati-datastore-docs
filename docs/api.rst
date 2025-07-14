@@ -70,7 +70,7 @@ And a second result with:
 Getting other data formats back from the activity collection
 ------------------------------------------------------------
 
-You can pass `iati_xml` to the `fl` paramaeter to get back a string of the XML of the activity.
+You can pass `iati_xml` to the `fl` parameter to get back a string of the XML of the activity.
 
 You can pass `iati_json` to the `fl` parameter to get back a JSON representation of the XML, with structure.
 

@@ -51,7 +51,7 @@ Datastore Search includes:
    :hidden:
    :titlesonly:
    :maxdepth: 3
-   :caption: API
+   :caption: Datastore API
 
    User Guide <api>
 
