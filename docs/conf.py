@@ -142,6 +142,7 @@ html_theme_options = {
     "header_title_text": "IATI Datastore",
     "languages": ["en"],
     "plausible_domain": "datastore.iatistandard.org",
+    "project_title": "IATI Datastore: Documentation",
     "tool_nav_items": {
         "IATI Datastore": "https://datastore.iatistandard.org/"
     },

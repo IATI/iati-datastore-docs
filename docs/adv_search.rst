@@ -49,7 +49,7 @@ In addition to standard fields, advanced search includes special fields. These a
 
 
 Multi-valued fields
--------------------
+---------------------
 
 If an element can occur multiple times within an IATI activity, it is stored as a multi-valued field. This is important to consider when using these elements in a query.
 For example:
@@ -67,14 +67,17 @@ For example:
     However, the transaction-level download can be used to only download incoming fund transactions from these results. See the simple search user guide for more information on download options.
 
 Element Wise Searching
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is not possible to query multi-valued fields in an element-wise fashion.
 
 For example, consider the query: **Recipient Country Code == AF - Afghanistan AND Recipient Country Percentage == 30**. 
 
 This returns all activities with a recipient country code of AF, and a recipient country with a percentage of 30%. 
-However, this may not necessarily apply to the same recipient-country element. 
+
+However, this does not mean that all the activites will have 30% going to Afghanistan. 
+
+The 2 clauses may not necessarily apply to the same recipient-country element. So there could be an activity with 30% going to Pakistan and 70% to Afghanistan in the results.
 
 In some cases you may be able to work around this limitation by downloading results at the transaction or budget-level. This is because a single transaction can only have a single recipient-country, for example. 
 

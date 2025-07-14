@@ -46,3 +46,19 @@ Datastore Search includes:
 
    User Guide <adv_search>
    Example Queries <adv_example>
+   
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 3
+   :caption: API
+
+   User Guide <api>
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :caption: Download
+   :hidden:
+
+   PDF  <https://docs.datastore.iatistandard.org/_/downloads/en/latest/pdf/>
