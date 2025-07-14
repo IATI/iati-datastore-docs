@@ -27,17 +27,33 @@ Datastore Search includes:
 
    Home <self>
    data_source
+   faqs
 
 .. toctree::
    :hidden:
    :titlesonly:
    :maxdepth: 3
-   :caption: User Guide
+   :caption: Simple Search
 
-   simple_search
-   adv_search
-   api
-   faqs
+   User Guide <simple_search>
+   Example Queries <simple_example>
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 3
+   :caption: Advanced Search
+
+   User Guide <adv_search>
+   Example Queries <adv_example>
+   
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 3
+   :caption: Datastore API
+
+   User Guide <api>
 
 .. toctree::
    :titlesonly:
