@@ -8,30 +8,30 @@ alabaster==1.0.0
     # via
     #   -r requirements.txt
     #   sphinx
-anyio==4.8.0
+anyio==4.11.0
     # via
     #   starlette
     #   watchfiles
-attrs==24.2.0
+attrs==25.4.0
     # via
     #   -r requirements.txt
     #   referencing
-babel==2.16.0
+babel==2.17.0
     # via
     #   -r requirements.txt
     #   sphinx
     #   sphinx-intl
-black==25.1.0
+black==25.9.0
     # via -r requirements_dev.in
-certifi==2024.8.30
+certifi==2025.10.5
     # via
     #   -r requirements.txt
     #   requests
-charset-normalizer==3.4.0
+charset-normalizer==3.4.3
     # via
     #   -r requirements.txt
     #   requests
-click==8.1.7
+click==8.3.0
     # via
     #   -r requirements.txt
     #   black
@@ -47,13 +47,13 @@ docutils==0.21.2
     #   sphinx-togglebutton
     #   sphinxcontrib-opendataservices
     #   sphinxcontrib-opendataservices-jsonschema
-exceptiongroup==1.2.2
+exceptiongroup==1.3.0
     # via anyio
-h11==0.14.0
+h11==0.16.0
     # via uvicorn
-iati-sphinx-theme==3.0.0
+iati-sphinx-theme==3.1.1
     # via -r requirements.txt
-idna==3.10
+idna==3.11
     # via
     #   -r requirements.txt
     #   anyio
@@ -62,7 +62,7 @@ imagesize==1.4.1
     # via
     #   -r requirements.txt
     #   sphinx
-jinja2==3.1.4
+jinja2==3.1.6
     # via
     #   -r requirements.txt
     #   myst-parser
@@ -71,7 +71,7 @@ jscc==0.3.0
     # via
     #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
-json-merge-patch==0.2
+json-merge-patch==0.3.0
     # via
     #   -r requirements.txt
     #   jscc
@@ -90,11 +90,11 @@ markdown-it-py==3.0.0
     #   -r requirements.txt
     #   mdit-py-plugins
     #   myst-parser
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via
     #   -r requirements.txt
     #   jinja2
-mdit-py-plugins==0.4.2
+mdit-py-plugins==0.5.0
     # via
     #   -r requirements.txt
     #   myst-parser
@@ -102,46 +102,48 @@ mdurl==0.1.2
     # via
     #   -r requirements.txt
     #   markdown-it-py
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via black
-myst-parser==4.0.0
+myst-parser==4.0.1
     # via
     #   -r requirements.txt
     #   sphinxcontrib-opendataservices
     #   sphinxcontrib-opendataservices-jsonschema
-packaging==24.2
+packaging==25.0
     # via
     #   -r requirements.txt
     #   black
     #   sphinx
 pathspec==0.12.1
     # via black
-platformdirs==4.3.6
+platformdirs==4.5.0
     # via black
-pygments==2.18.0
+pygments==2.19.2
     # via
     #   -r requirements.txt
     #   sphinx
-pyyaml==6.0.2
+pytokens==0.1.10
+    # via black
+pyyaml==6.0.3
     # via
     #   -r requirements.txt
     #   myst-parser
-referencing==0.35.1
+referencing==0.36.2
     # via
     #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
-requests==2.32.3
+requests==2.32.5
     # via
     #   -r requirements.txt
     #   jscc
     #   sphinx
-rpds-py==0.21.0
+rpds-py==0.27.1
     # via
     #   -r requirements.txt
     #   referencing
 sniffio==1.3.1
     # via anyio
-snowballstemmer==2.2.0
+snowballstemmer==3.0.1
     # via
     #   -r requirements.txt
     #   sphinx
@@ -155,7 +157,7 @@ sphinx==8.1.3
     #   sphinxcontrib-opendataservices
 sphinx-autobuild==2024.10.3
     # via -r requirements_dev.in
-sphinx-intl==2.3.1
+sphinx-intl==2.3.2
     # via -r requirements.txt
 sphinx-togglebutton==0.3.2
     # via -r requirements.txt
@@ -175,7 +177,7 @@ sphinxcontrib-jsmath==1.0.1
     # via
     #   -r requirements.txt
     #   sphinx
-sphinxcontrib-opendataservices==0.5.0
+sphinxcontrib-opendataservices==0.6.0
     # via -r requirements.txt
 sphinxcontrib-opendataservices-jsonschema==0.7.1
     # via
@@ -189,27 +191,31 @@ sphinxcontrib-serializinghtml==2.0.0
     # via
     #   -r requirements.txt
     #   sphinx
-starlette==0.46.0
+starlette==0.48.0
     # via sphinx-autobuild
-tomli==2.2.1
+tomli==2.3.0
     # via
     #   -r requirements.txt
     #   black
     #   sphinx
-typing-extensions==4.12.2
+typing-extensions==4.15.0
     # via
+    #   -r requirements.txt
     #   anyio
     #   black
+    #   exceptiongroup
+    #   referencing
+    #   starlette
     #   uvicorn
-urllib3==2.2.3
+urllib3==2.5.0
     # via
     #   -r requirements.txt
     #   requests
-uvicorn==0.34.0
+uvicorn==0.37.0
     # via sphinx-autobuild
-watchfiles==1.0.4
+watchfiles==1.1.0
     # via sphinx-autobuild
-websockets==15.0
+websockets==15.0.1
     # via sphinx-autobuild
 wheel==0.45.1
     # via
