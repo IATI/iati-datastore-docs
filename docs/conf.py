@@ -31,12 +31,12 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['myst_parser',
-              'sphinxcontrib.opendataservices',
-              'sphinxcontrib.jsonschema',
-              'sphinx.ext.todo',
-              'sphinx.ext.autodoc',
-              'sphinx_togglebutton',
-              'sphinx.ext.autosectionlabel']
+            'sphinxcontrib.opendataservices',
+            'sphinxcontrib.jsonschema',
+            'sphinx.ext.todo',
+            'sphinx.ext.autodoc',
+            'sphinx_togglebutton',
+            'sphinx.ext.autosectionlabel']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -259,21 +259,21 @@ htmlhelp_basename = 'sphinxdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-     # The paper size ('letterpaper' or 'a4paper').
-     #
-     # 'papersize': 'letterpaper',
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    # 'papersize': 'letterpaper',
 
-     # The font size ('10pt', '11pt' or '12pt').
-     #
-     # 'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
 
-     # Additional stuff for the LaTeX preamble.
-     #
-     # 'preamble': '',
+    # Additional stuff for the LaTeX preamble.
+    #
+    # 'preamble': '',
 
-     # Latex figure (float) alignment
-     #
-     # 'figure_align': 'htbp',
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -281,7 +281,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'sphinx.tex', 'IATI Datastore Docs',
-     'IATI Secretariat', 'manual'),
+    'IATI Secretariat', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -323,7 +323,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'sphinx', 'IATI Datastore Docs',
-     [author], 1)
+    [author], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -338,8 +338,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'sphinx', 'IATI Datastore Docs',
-     author, 'sphinx', 'One line description of project.',
-     'Miscellaneous'),
+    author, 'sphinx', 'One line description of project.',
+    'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
