@@ -27,7 +27,7 @@ certifi==2025.10.5
     # via
     #   -r requirements.txt
     #   requests
-charset-normalizer==3.4.3
+charset-normalizer==3.4.4
     # via
     #   -r requirements.txt
     #   requests
@@ -122,13 +122,13 @@ pygments==2.19.2
     # via
     #   -r requirements.txt
     #   sphinx
-pytokens==0.1.10
+pytokens==0.2.0
     # via black
 pyyaml==6.0.3
     # via
     #   -r requirements.txt
     #   myst-parser
-referencing==0.36.2
+referencing==0.37.0
     # via
     #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
@@ -213,7 +213,7 @@ urllib3==2.5.0
     #   requests
 uvicorn==0.37.0
     # via sphinx-autobuild
-watchfiles==1.1.0
+watchfiles==1.1.1
     # via sphinx-autobuild
 websockets==15.0.1
     # via sphinx-autobuild
