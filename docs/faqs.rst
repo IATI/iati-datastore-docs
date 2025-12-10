@@ -16,7 +16,7 @@ Frequently Asked Questions
 .. _faq_1: 
 
 1. Why is my data missing from the Datastore?
-    The IATI Datastore contains all avaiable data registered with IATI which is version 2.0 or above, and conforms to the IATI XML Schema. 
+    The IATI Datastore contains all available data registered with IATI which is version 2.0 or above, and conforms to the IATI XML Schema. 
     Files that do not conform to the IATI XML schema are marked as critically invalid in the `IATI Validator <https://validator.iatistandard.org/organisations>`_.
 
 .. _faq_2: 
