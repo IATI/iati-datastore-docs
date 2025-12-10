@@ -21,7 +21,7 @@ Frequently Asked Questions
 
 .. _faq_2: 
 
-1. When is the IATI Datastore updated?
+2. When is the IATI Datastore updated?
     The Datastore is updated dynamically as new data becomes available via the `IATI Bulk Data Service <https://bulk-data.iatistandard.org/>`_.
     New files can take up to 24 hours to update. 
 
@@ -30,7 +30,7 @@ Frequently Asked Questions
 3. How do I search for a specific phrase/identifer?
     To search for a particular phrase, use quotation marks. 
     For example, **"rabbit production"** will return search results about rabbit production. **rabbit production** will return results about rabbits, and results about production. 
-    For more information on how to use the Datastore Search, please see the :ref:`Simple Search` User Guide.
+    For more information on how to use the Datastore Search, please see :ref:`simple_search`.
 
 .. _faq_4: 
 
