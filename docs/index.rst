@@ -54,11 +54,3 @@ Datastore Search includes:
    :caption: Datastore API
 
    User Guide <api>
-
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-   :caption: Download
-   :hidden:
-
-   PDF  <https://docs.datastore.iatistandard.org/_/downloads/en/latest/pdf/>

@@ -14,21 +14,25 @@ Frequently Asked Questions
 | 
 
 .. _faq_1: 
+
 1. Why is my data missing from the Datastore?
-    The IATI Datastore contains all IATI data known to the IATI Registry which is version 2.0 or above, and conforms to the IATI XML Schema. 
+    The IATI Datastore contains all available data registered with IATI which is version 2.0 or above, and conforms to the IATI XML Schema. 
     Files that do not conform to the IATI XML schema are marked as critically invalid in the `IATI Validator <https://validator.iatistandard.org/organisations>`_.
 
 .. _faq_2: 
+
 2. When is the IATI Datastore updated?
-    The Datastore is updated dynamically as new data becomes available via the `IATI Registry <https://iatiregistry.org/publisher/>`_.
+    The Datastore is updated dynamically as new data becomes available via the `IATI Bulk Data Service <https://bulk-data.iatistandard.org/>`_.
     New files can take up to 24 hours to update. 
 
 .. _faq_3: 
+
 3. How do I search for a specific phrase/identifer?
     To search for a particular phrase, use quotation marks. 
     For example, **"rabbit production"** will return search results about rabbit production. **rabbit production** will return results about rabbits, and results about production. 
-    For more information on how to use the Datastore Search, please see the :ref:`Simple Search` User Guide.
+    For more information on how to use the Datastore Search, please see :ref:`simple_search`.
 
 .. _faq_4: 
+
 4. How does IATI Datastore clean IATI data?
     The IATI Datastore indexes and represents IATI data precisely as it is was published. There are no transformations or layers of inferred meaning or metadata.
