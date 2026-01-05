@@ -18,7 +18,7 @@ Advanced Search: Example Queries
 -------------------------------------------------
 
 A researcher is interested in agricultural funding in IATI data, spefically in activities reported by the Food and Agriculture Organization of the United Nations (FAO). 
-They visit the `IATI Registry <https://iatiregistry.org/publisher/?q=fao&sort=title+asc>`_ and determine that the organisation identifer of FAO is XM-DAC-41301.
+They visit the `IATI Dashboard <https://dashboard.iatistandard.org/publishers/fao/>`_ and determine that the organisation identifer of FAO is XM-DAC-41301.
 
 They therefore need to search for activities with the reporting organisation reference XM-DAC-41301, using the query **Reporting Org Ref == "XM-DAC-41301"** .
 Note the quotation marks around the organisation identifer.

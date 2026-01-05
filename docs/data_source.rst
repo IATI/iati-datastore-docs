@@ -8,6 +8,6 @@ The IATI Datastore is a repository of IATI activity data published by reporting 
 
 To be included in the IATI Datastore, data must:
 
-- Be registered on the IATI Registry.
+- Be registered with IATI, and available via the `IATI Bulk Data Service <https://bulk-data.iatistandard.org/>`_.
 - Conform to the IATI XML Schema.
 - Conform to the IATI Standard V2.0 or above.
