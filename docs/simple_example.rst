@@ -12,6 +12,7 @@ Simple Search: Example Queries
 | 
 
 .. _q1: 
+
 1: How do I investigate which countries have had SMART surveys?
 -----------------------------------------------------------------
 
@@ -34,6 +35,7 @@ The user can find this information by downloading the results at transaction lev
 | 
 
 .. _q2: 
+
 2: How do I find activites related to diabetes?  
 -------------------------------------------------
 
