@@ -14,7 +14,7 @@ nav_label = None
 # Eyebrow text: the smaller text that appears directly above the website title
 eyebrow_text = "IATI Tools: Documentation"
 
-# GitHub repository URL (for "Edit on GitHub" links)
+# GitHub repository URL (used by the theme for the "Source code at GitHub" footer link)
 github_repository = "https://github.com/IATI/iati-datastore-docs"
 
 # Supported languages for the documentation
