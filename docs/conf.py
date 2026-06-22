@@ -21,6 +21,7 @@ from project_info import (
     eyebrow_text,
     github_repository,
     languages,
+    plausible_domain,
     redoc,
 )
 
@@ -68,6 +69,7 @@ html_theme_options = {  # See https://iati-sphinx-theme.readthedocs-hosted.com/e
     "header_title_text": _(project),
     "header_eyebrow_text": _(eyebrow_text),
     "languages": languages,
+    "plausible_domain": plausible_domain,
     "project_title": _(project_title),
     "show_download_links": True,
     "tool_nav_items": tool_nav_items,
