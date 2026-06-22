@@ -2,6 +2,8 @@
 # This file contains settings that vary per repository.
 # The main conf.py imports these values and can be synced across all repos.
 
+from urllib.parse import urlparse
+
 # Project name (used for titles, headers, and Sphinx internals)
 project = "IATI Datastore"
 
@@ -16,6 +18,10 @@ eyebrow_text = "IATI Tools: Documentation"
 
 # GitHub repository URL (used by the theme for the "Source code at GitHub" footer link)
 github_repository = "https://github.com/IATI/iati-datastore-docs"
+
+# Plausible analytics domain, derived from tool_url so docs are tracked
+# under the tool's site. Set to None to disable.
+plausible_domain = urlparse(tool_url).hostname if tool_url else None
 
 # Supported languages for the documentation
 languages = ["en"]
