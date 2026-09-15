@@ -1,7 +1,7 @@
 API
 ===
 
-An API is available with methods to query the datastore from your code and get results programatically.
+An API is available with methods to query the datastore from your code and get results programmatically.
 
 To use this, you must sign up for an API key. 
 
@@ -12,7 +12,7 @@ The rest of this page describes details of the API and should be read alongside 
 Field names and content in activity collection
 ----------------------------------------------
 
-Field names are constructed from the the XML tag and (if applicable) the attribute. For example field names you can query include:
+Field names are constructed from the XML tag and (if applicable) the attribute. For example field names you can query include:
 
 * sector_percentage
 * sector_vocabulary
@@ -41,7 +41,7 @@ In these collections, one data item is returned for each transaction or budget.
 
 Any field names that start with the name of that collection come from that item only.
 
-Any other field names come from the actvity and include all data in the activity. This makes it easy to construct complex queries.
+Any other field names come from the activity and include all data in the activity. This makes it easy to construct complex queries.
 
 For example, on an activity collection result you may see these fields:
 
