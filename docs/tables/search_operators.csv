@@ -6,7 +6,7 @@ Search operator,Function,Example
 Without quotes, inter-agency would return matches to inter and agency."
 .. centered:: **AND**,"Boolean, requires both terms to be present.
 
-&& can be used in place of AND.","**Congo AND Democratic** returns results that contain both the terms Congo, and Democratic."
+&& can be used in place of AND.","**Congo AND Democratic** returns results that contain both the terms Congo and Democratic."
 .. centered:: **NOT**,"Boolean, requires that the following term is not present.
 
 ! or - can be used in place of NOT.",**Congo NOT Democratic** returns results that contain Congo but do not contain Democratic.

@@ -3,7 +3,7 @@ Simple Search: Example Queries
 ******************************
 
 1. :ref:`How do I investigate which countries have had SMART surveys? <q1>`
-2. :ref:`How do I find activites related to diabetes? <q2>`
+2. :ref:`How do I find activities related to diabetes? <q2>`
 
 | 
 
@@ -36,7 +36,7 @@ The user can find this information by downloading the results at transaction lev
 
 .. _q2: 
 
-2: How do I find activites related to diabetes?  
+2: How do I find activities related to diabetes?  
 -------------------------------------------------
 
 A researcher wants to find IATI activities with a focus on diabetes.

@@ -4,7 +4,7 @@ Advanced Search: Example Queries
 
 1. :ref:`How do I find activities reported by the FAO? <adv_q1>`
 2. :ref:`How do I find organisations involved in the humanitarian response in Lebanon? <adv_q2>`
-3. :ref:`How do I find activites related to diabetes in Botswana? <adv_q3>`
+3. :ref:`How do I find activities related to diabetes in Botswana? <adv_q3>`
 
 | 
 
@@ -17,11 +17,11 @@ Advanced Search: Example Queries
 1: How do I find activities reported by the FAO? 
 -------------------------------------------------
 
-A researcher is interested in agricultural funding in IATI data, spefically in activities reported by the Food and Agriculture Organization of the United Nations (FAO). 
-They visit the `IATI Dashboard <https://dashboard.iatistandard.org/publishers/fao/>`_ and determine that the organisation identifer of FAO is XM-DAC-41301.
+A researcher is interested in agricultural funding in IATI data, specifically in activities reported by the Food and Agriculture Organization of the United Nations (FAO). 
+They visit the `IATI Dashboard <https://dashboard.iatistandard.org/publishers/fao/>`_ and determine that the organisation identifier of FAO is XM-DAC-41301.
 
 They therefore need to search for activities with the reporting organisation reference XM-DAC-41301, using the query **Reporting Org Ref == "XM-DAC-41301"** .
-Note the quotation marks around the organisation identifer.
+Note the quotation marks around the organisation identifier.
 
 .. figure:: images/adv_q_1.svg
     :width: 100 %
@@ -30,7 +30,7 @@ Note the quotation marks around the organisation identifer.
 
     Query 1:  Activities reported by the Food and Agriculture Organization of the United Nations
 
-If the researcher wanted to expand this search to include other reporting organisations, such the United States Department of Agriculture (US-GOV-2), they can use a comma separated list of organisation identifiers.
+If the researcher wanted to expand this search to include other reporting organisations, such as the United States Department of Agriculture (US-GOV-2), they can use a comma-separated list of organisation identifiers.
 
 For example, **Reporting Org Ref == "XM-DAC-41301", "US-GOV-2"**. You can :download:`download this query <files/adv_example_q1.json>` and test it out yourself by using the "Import Query" option in advanced search.
 
@@ -75,14 +75,14 @@ There are two places to look for organisations at the activity level:
     Their names are in the "reporting_org_narrative" column. Filtering using a "remove duplicates" option will give a list of all reporting organisations.
 
 2. Participating Organisations
-    `Participating organisations <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/participating-org/>`_ are all organistions involved in an activity. 
-    Their names are in the "participating_org_narrative" column. This will often contain multiple participating organistion names, separated by a pipe (|) character.
+    `Participating organisations <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/participating-org/>`_ are all organisations involved in an activity. 
+    Their names are in the "participating_org_narrative" column. This will often contain multiple participating organisation names, separated by a pipe (|) character.
     Using a "split text to columns" option and specifying | as the separator will split the names into individual cells. These can then be combined into a single column and deduplicated as above.
 
 Note - some duplication may remain as different names can be used for the same organisation. For example "World Health Organisation" and "WHO".
 
 The NGO could also download the Transaction level file to investigate `receiver <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`_ and 
-`provider <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/provider-org/>`_ organistions.
+`provider <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/provider-org/>`_ organisations.
 
 | 
 
@@ -92,8 +92,8 @@ The NGO could also download the Transaction level file to investigate `receiver 
 
 .. _adv_q3: 
 
-3: How do I find activites related to diabetes in Botswana? 
------------------------------------------------------------
+3: How do I find activities related to diabetes in Botswana? 
+------------------------------------------------------------
 
 A researcher wants to find IATI activities with a focus on diabetes in Botswana.
 

@@ -4,7 +4,7 @@ Frequently Asked Questions
 
 1. :ref:`Why is my data missing from the Datastore? <faq_1>`
 2. :ref:`When is the IATI Datastore updated? <faq_2>`
-3. :ref:`How do I search for a specific phrase/identifer? <faq_3>`
+3. :ref:`How do I search for a specific phrase/identifier? <faq_3>`
 4. :ref:`How does IATI Datastore clean IATI data? <faq_4>`
 
 | 
@@ -27,7 +27,7 @@ Frequently Asked Questions
 
 .. _faq_3: 
 
-3. How do I search for a specific phrase/identifer?
+3. How do I search for a specific phrase/identifier?
     To search for a particular phrase, use quotation marks. 
     For example, **"rabbit production"** will return search results about rabbit production. **rabbit production** will return results about rabbits, and results about production. 
     For more information on how to use the Datastore Search, please see :ref:`simple_search`.
@@ -35,4 +35,4 @@ Frequently Asked Questions
 .. _faq_4: 
 
 4. How does IATI Datastore clean IATI data?
-    The IATI Datastore indexes and represents IATI data precisely as it is was published. There are no transformations or layers of inferred meaning or metadata.
+    The IATI Datastore indexes and represents IATI data precisely as it was published. There are no transformations or layers of inferred meaning or metadata.

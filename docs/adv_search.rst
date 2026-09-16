@@ -6,7 +6,7 @@ Advanced Search: User Guide
 
 To access the advanced search, click on the “Switch to Advanced Search” button on the `Datastore Search <https://datastore.iatistandard.org/>`_ homepage. This tool can be used to search all elements within IATI activity data.
 
-For a summary of all elements in the standard, please see the `Activity Standard Summary Table <https://www.google.com/url?q=https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/&sa=D&source=docs&ust=1733222605142915&usg=AOvVaw1so5C1Bi3cyCOvJ2ziPKKk>`_.
+For a summary of all elements in the standard, please see the `Activity Standard Summary Table <https://iatistandard.org/en/iati-standard/203/activity-standard/summary-table/>`_.
 
 .. important:: 
     We recommend reading the "Simple Search" section of this guide first.
@@ -32,11 +32,11 @@ For other fields (e.g. recipient-country codes) use the **==** and **!=** operat
 
 For more complex queries, you can add more rules or groups of rules. See the :ref:`Example Queries` page for examples.
 
-When your query is ready, click "Run" to excute it. You can also import and export queries to rerun at a later date.
+When your query is ready, click "Run" to execute it. You can also import and export queries to rerun at a later date.
 
 .. tip:: 
     Quote marks must be used to search for organisation and iati-identifiers.
-    For example, "XM-DAC-1234". Without quotes, **iati-identifer == XM-DAC-1234** would return matches to XM, DAC, and 1234.
+    For example, "XM-DAC-1234". Without quotes, **iati-identifier == XM-DAC-1234** would return matches to XM, DAC, and 1234.
 
 Special fields
 -------------------
@@ -56,7 +56,7 @@ For example:
 
 **Participating organisation type**
 
-    The query **Participating Org Type == 11 - Local Government** returns all activities with at least one type 11 participating organisation. Other participating organistions referenced in the activity may not be of type 11.
+    The query **Participating Org Type == 11 - Local Government** returns all activities with at least one type 11 participating organisation. Other participating organisations referenced in the activity may not be of type 11.
     
     The query **Participating Org Type != 11 - Local Government** returns all activities with no type 11 participating organisations. 
 
@@ -75,7 +75,7 @@ For example, consider the query: **Recipient Country Code == AF - Afghanistan AN
 
 This returns all activities with a recipient country code of AF, and a recipient country with a percentage of 30%. 
 
-However, this does not mean that all the activites will have 30% going to Afghanistan. 
+However, this does not mean that all the activities will have 30% going to Afghanistan. 
 
 The 2 clauses may not necessarily apply to the same recipient-country element. So there could be an activity with 30% going to Pakistan and 70% to Afghanistan in the results.
 
